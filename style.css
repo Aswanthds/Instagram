@@ -63,7 +63,10 @@ nav li {
 
 }
 
-
+.story:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
 
 
 
@@ -127,6 +130,11 @@ nav li {
   width: 60px;
 
   background: linear-gradient(to right, #ffa600, #db03db) border-box;
+}
+
+.profile2 #story:hover{
+  cursor: pointer;
+  opacity: 0.5;
 }
 
 .profile2 #name {
@@ -204,6 +212,11 @@ p {
   margin-top: 10px;
 }
 
+.suggested #story:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
+
 
 
 .suggested #info {
@@ -249,6 +262,10 @@ p {
   background: linear-gradient(to right, #ffa600, #db03db) border-box;
 }
 
+.profile-pic-story:hover{
+  cursor: pointer;
+}
+
 .profile-pic {
   width: 30px;
   height: 30px;
@@ -285,8 +302,8 @@ p {
 
 .time {
   opacity: 0.5;
-  padding-left: 8px;
-  
+  padding-left: 10px;
+  font-weight: 100;
 }
 
 
@@ -308,7 +325,7 @@ p {
 .post-save {
   height: 25px;
   width: 25px;
-  margin-left: 70%;
+  margin-left: 65%;
 }
 
 .post-chat {
@@ -352,8 +369,9 @@ p {
 /* reels */
 .reels {
   width: 75%;
-  height: 40%;
+  height: 30%;
   padding: 20px;
+  margin-bottom: -20px;
 }
 
 .reels-header {
@@ -369,6 +387,10 @@ p {
   margin-right: 10px;
   border: 2.0px solid transparent;
 
+}
+
+.profile-pic:hover{
+  cursor: pointer;
 }
 
 .reels .username {
@@ -406,7 +428,7 @@ p {
 
 .reels p {
   font-size: 14px;
-  padding-top: 10mm;
+  
 }
 
 .reels span {
@@ -443,7 +465,7 @@ p {
 
 .reels .more {
   height: 16px;
-  margin-left: 50%;
+  margin-left: 45%;
 }
 
 /* suggested reels */
@@ -453,8 +475,11 @@ p {
 {
   background-color: azure;
   height:1px;
-  width: 85%;
+  width: 80%;
   opacity: 0.5;
+  margin-left: 15px;
+  margin-top: 20px;
+  display: flex;
 }
 
 .middle-section .sug-txt{
@@ -465,3 +490,30 @@ p {
   margin-top: 15px;
 }
 
+.reels .btn-flw{
+  background:transparent;
+  color:  rgb(64, 64, 232);;
+  border: none;
+  height: 25px;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+
+
+.reels .more {
+  height: 16px;
+  margin-left: 45%;
+}
+
+.img-close{
+  height: 15px;
+  margin-left: 50%;
+}
+.img-close:hover{
+  cursor: pointer;
+}
+
+.img-close,.sug-txt{
+  display: inline;
+  padding-top: 20px;
+}
