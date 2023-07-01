@@ -63,9 +63,9 @@ nav li {
 
 }
 
-.story:hover{
-    cursor: pointer;
-    opacity: 0.5;
+.story:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
 
 
@@ -132,7 +132,7 @@ nav li {
   background: linear-gradient(to right, #ffa600, #db03db) border-box;
 }
 
-.profile2 #story:hover{
+.profile2 #story:hover {
   cursor: pointer;
   opacity: 0.5;
 }
@@ -212,7 +212,7 @@ p {
   margin-top: 10px;
 }
 
-.suggested #story:hover{
+.suggested #story:hover {
   cursor: pointer;
   opacity: 0.7;
 }
@@ -244,7 +244,7 @@ p {
 .post {
   width: 75%;
   padding: 20px;
-
+  align-items: center;
 }
 
 .post-header {
@@ -262,7 +262,7 @@ p {
   background: linear-gradient(to right, #ffa600, #db03db) border-box;
 }
 
-.profile-pic-story:hover{
+.profile-pic-story:hover {
   cursor: pointer;
 }
 
@@ -354,6 +354,7 @@ p {
   color: rgb(159, 170, 196);
 
 }
+
 .post .more {
   height: 16px;
   margin-left: 60%;
@@ -390,7 +391,7 @@ p {
 
 }
 
-.profile-pic:hover{
+.profile-pic:hover {
   cursor: pointer;
 }
 
@@ -429,7 +430,7 @@ p {
 
 .reels p {
   font-size: 14px;
-  
+
 }
 
 .reels span {
@@ -472,10 +473,9 @@ p {
 /* suggested reels */
 
 
-.middle-section .divider
-{
+.middle-section .divider {
   background-color: azure;
-  height:1px;
+  height: 1px;
   width: 80%;
   opacity: 0.5;
   margin-left: 15px;
@@ -483,7 +483,7 @@ p {
   display: flex;
 }
 
-.middle-section .sug-txt{
+.middle-section .sug-txt {
   font-size: 15px;
   margin-left: 20px;
 
@@ -491,9 +491,10 @@ p {
   margin-top: 15px;
 }
 
-.reels .btn-flw{
-  background:transparent;
-  color:  rgb(64, 64, 232);;
+.reels .btn-flw {
+  background: transparent;
+  color: rgb(64, 64, 232);
+  ;
   border: none;
   height: 25px;
   border-radius: 4px;
@@ -506,15 +507,17 @@ p {
   margin-left: 45%;
 }
 
-.img-close{
+.img-close {
   height: 15px;
   margin-left: 50%;
 }
-.img-close:hover{
+
+.img-close:hover {
   cursor: pointer;
 }
 
-.img-close,.sug-txt{
+.img-close,
+.sug-txt {
   display: inline;
   padding-top: 20px;
 }
